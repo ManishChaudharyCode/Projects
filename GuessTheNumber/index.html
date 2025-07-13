@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number The Guess</title>
+    <link rel="stylesheet" href="stylr.css"/>
+</head>
+<body>
+    <nav>
+        <a href="/" aria-current="page">Home</a>
+    </nav>
+    <div id="wrapper">
+        <h1>Number gussing game</h1>
+        <p>Try and guess a random between 1 to 100</p>
+        <p>you have 10 attempts to guess the right  number. </p>
+    </br>
+     <form class="form">
+        <label2 for="guessField" id="guess">Guess a Number </label>
+         <input type="text" id="guessField" class="guessField">
+         <input type="submit" id="subt" value="submit guess" class="guessSubmit">   
+        </form>
+        <div class="resultParas">
+            <p>Previous Guesses  <span class="guesses"></span></p>
+            <p>GuessesRemaining: <span class="lastResults">10</span></p>
+            <p class="lowOrHi"></p>
+        </div>
+    </div>
+
+    <script src="javaScript.js"></script>
+</body>
+
+</html>

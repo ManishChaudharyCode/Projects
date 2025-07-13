@@ -1,0 +1,50 @@
+html{
+    margin: 0;
+    
+}
+
+nav{
+    padding: 20px;
+    height: 20px;
+    width: 95%;
+    background-color: beige;
+    margin-left: 12px;
+    
+}
+nav a{
+    align-items: center;
+    color: black;
+    margin-left: 45%;
+    border-radius: 6px solid white;
+    background-color: silver;
+    height: 10px;
+    width: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 80px;
+    font-size: 1.5rem;
+    
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.project-link {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: #212121;
+  text-decoration: none;
+  border: 2px solid #212121;
+
+  margin-top: 5px;
+  
+}
+
+    

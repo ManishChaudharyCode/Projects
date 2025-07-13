@@ -1,0 +1,55 @@
+html{
+    margin: 0;
+}
+
+span{
+    display: block;
+}
+
+nav{
+    background: bisque;
+    padding: 20px;
+}
+
+nav a{
+    text-align: center;
+    margin-left: 45%;
+    padding: 15px;
+    width: 10px;
+    border: 2px solid black;
+}
+.canvas{
+margin: 100px auto 100px;
+width: 80%;
+text-align: center;
+}
+
+.button{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#grey{
+    background:grey ;
+    
+}
+
+#white{
+    background: white;
+   
+}
+
+#blue{
+    background: blue;
+    
+}
+
+#pink{
+    background: pink;
+}
+#yellow{
+    background:yellow ;
+}
