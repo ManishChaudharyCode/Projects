@@ -1,0 +1,41 @@
+html{
+    margin: 0;
+}
+
+span{
+    display: block;
+}
+
+nav{
+    background: bisque;
+    padding: 20px;
+}
+
+nav a{
+    text-align: center;
+    margin-left: 45%;
+    padding: 15px;
+    width: 10px;
+    border: 2px solid black;
+}
+
+table,
+      th,
+      td {
+        border: 1px solid #e7e7e7;
+      }
+      .project {
+        background-color: #1c1c1c;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+      }
+
+      .color {
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+      }

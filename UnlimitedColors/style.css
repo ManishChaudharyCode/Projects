@@ -1,0 +1,24 @@
+body{
+    background-color: #212121;
+    color: #ffff;
+}
+html{
+    margin: 0;
+}
+
+span{
+    display: block;
+}
+
+nav{
+    background: bisque;
+    padding: 20px;
+}
+
+nav a{
+    text-align: center;
+    margin-left: 45%;
+    padding: 15px;
+    width: 10px;
+    border: 2px solid black;
+}
